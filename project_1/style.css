@@ -1,0 +1,218 @@
+.bg-custom{
+     background-color:#578FCA !important;
+}
+#bg{
+    height: 200px;
+    width: 200px;
+}
+
+.nav-link, .navbar-brand{
+               color:white
+}
+
+.navbar-brand img{
+     width:30px;
+}
+
+#abc {
+height: 80vh;
+color:white;
+clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 80% 90%, 50% 100%, 20% 90%, 0 100%, 0% 35%, 0 0);
+}
+
+ #changetext::after{
+     content:"";
+     animation-name: changetextanimation;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes changetextanimation{
+
+     25%{
+          content:"Watches";
+          color:red;
+
+
+     }
+     50%{
+          content:"Smart Phones";
+          color:orange;
+
+     }
+     75%{
+          content:"Webcames";
+          color:green;
+
+     }
+     100%{
+          content:"Shirt and pants";
+          color:blue;
+
+     }
+
+}
+.modal input{
+
+     margin-bottom: 20px;
+ 
+ }
+
+ #rating img {
+
+     width:60px;
+       }
+
+ .card-footer{
+     background-color: #578FCA;
+     color:white;
+     font-family:"Caveat",serif ;
+ }
+
+ #rating i, #product i{
+     color:orange;
+
+ }
+
+ #rating  h1 ,#product h1{
+
+     text-align:center;
+     font-family: lucida;
+ }
+
+ #rating span ,#product span{
+
+color:#0696ba;
+      }
+
+ #product #addicon img{
+
+     width:30px;
+     float:right;
+ }
+
+ #product #price{
+     color:black;
+     font-size:20px;
+     font-weight:bold;
+      }
+
+ #product .card{
+
+     border-radius: 20px;
+ }
+
+#product #overlay{
+
+     width:30px;
+     position: absolute;
+     top:15px;
+     
+}
+
+#overlay img{
+
+margin-top: 10px;
+background-color: orange;
+padding: 4px;
+cursor:pointer;
+
+}
+
+#overlay{
+   opacity: 0;
+   transition: opacity 0.8s;
+}
+
+.card:hover #overlay{
+     opacity: 1;
+
+}
+
+ .slider {
+            width: 80%;
+            margin: auto;
+        }
+       .slider .card {
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+       .slider .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+
+
+    
+
+
+
+
+footer {
+    background-color: #578FCA ;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    width: 22%;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff6600;
+}
+
+.footer-section H3{
+    padding-top: 20px;
+}
